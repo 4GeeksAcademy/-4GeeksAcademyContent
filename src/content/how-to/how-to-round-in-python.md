@@ -8,7 +8,7 @@ authors: ["jul1998"]
 
 Round numbers in [Python](https://4geeks.com/lesson/intro-to-python) is a very important operation since it is used in almost every field in programming to archive multiple goals. During this article, we will see several methods in python to round numbers such as round up, round down, round to a specific decimal number and round to the nearest integer number. Here is a code snippet that shows how to round a number in Python:
 
-```python
+```python runable=true
 number = 3.78
 rounded_number = round(number)
 
@@ -29,7 +29,7 @@ Now let’s see some techniques to perform this task:
 
 To round a number to the nearest integer number, we can use the method `round()` in Python. This function only takes one number as parameter and it returns the number rounded:
 
-```python
+```python runable=true
 number = 3.78
 rounded_number = round(number)
 
@@ -42,7 +42,7 @@ In this example, the `round()` function rounds the variable number to the neares
 
 If we want to round a number to a specific amount of decimals, we can use second parameter in `round()` called `ndigits`. This parameter indicates how many decimals we want our number to be include:
 
-```python
+```python runable=true
 number = 3.1415
 rounded_number = round (number, 2)
 
@@ -55,7 +55,7 @@ By using the second parameter, we can specify the amount of decimals that the nu
 
 To round a number up to the next integer number, you should use the `math.ceil()` function from the math module built-in in Python.
 
-```python
+```python runable=true
 import math
 
 number = 3.78
@@ -70,7 +70,7 @@ In the code snippet above, we import the module `math` in order to use the funct
 
 In this case, we can use `math.floor()` from the math module.
 
-```python
+```python runable=true
  import math
 
 number = 3.78
@@ -92,4 +92,6 @@ Here some common examples where the `round()` methods is used:
 
 ## Conclusion 
 
-Finally, rounding numbers in Python is a fundamental operation that provides more options and opportunities when dealing with numbers in programming. Through this article, we analyzed what rounding numbers in Python is, most common methods like rounding up or down, and mentioned some use cases where is pretty common to use round. Using and exercising these skills will improve our code when using the round method in Python. You can check the [4Geek's Blog](https://4geeks.com/) to learn more about other [Python](https://4geeks.com/technology/python) related questions.
+Finally, rounding numbers in Python is a fundamental operation that provides more options and opportunities when dealing with numbers in programming. Through this article, we analyzed what rounding numbers in Python is, most common methods like rounding up or down, and mentioned some use cases where is pretty common to use round. Using and exercising these skills will improve our code when using the round method in Python. 
+
+> 🔗 You can check the [4Geek's](https://4geeks.com/) to learn more about other [Python](https://4geeks.com/technology/python) related questions.
